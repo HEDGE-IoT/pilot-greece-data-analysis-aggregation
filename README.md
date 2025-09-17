@@ -116,8 +116,6 @@
 
 ---
 
-## 1.8 Pre-Demo Phase WP5
-
 ### Grafana-Based Dashboard
 A monitoring and analysis dashboard was implemented with panels for:  
 1. **Energy Monitoring (Top Left):** Visualizes median power consumption per device (`hedge-iot-01` to `hedge-iot-25`), grouped into EM and 3EM categories. Color-coded bars highlight high/low consumption.  
