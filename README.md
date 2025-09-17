@@ -1,13 +1,13 @@
 # Data Analysis and Aggregation
 
-## 1.1 General Information and Purpose
+## General Information and Purpose
 - **Service Name/Title:** `data_analysis_and_aggregation`
 - **Description and purpose:** Real-time analysis and aggregation to support immediate actions and decision-making.
 - **Owner/Contact Information:** ICCS
 
 ---
 
-## 1.2 Functional Requirements
+## Functional Requirements
 1. Calculate averages, maximums, minimums, and other statistics over time intervals (e.g., 1 min, 15 min, hourly).  
 2. Group data (e.g., multiple houses) for spatial insights.  
 3. Capture specific events like peak energy usage for triggering alerts.  
@@ -15,7 +15,7 @@
 
 ---
 
-## 1.3 Non-Functional Requirements
+## Non-Functional Requirements
 - Aggregated data available in a few seconds.  
 - Access restricted to registered users.  
 - Periodic backups with automated recovery.  
@@ -23,9 +23,9 @@
 
 ---
 
-## 1.4 Service Interfaces
+## Service Interfaces
 
-### 1.4.1 API Endpoints
+### API Endpoints
 
 #### Endpoint 1 — Retrieve Aggregated Consumption Data for Last Day
 - **URL:** `/aggregator/consumption/lastday`  
@@ -75,12 +75,12 @@
 
 ---
 
-### 1.4.2 UI Mock-ups
+### UI Mock-ups
 *(Not applicable)*  
 
 ---
 
-## 1.5 Data Model
+## Data Model
 
 ### Entities and Relationships
 - Users manage one or more Houses.  
@@ -96,7 +96,7 @@
 
 ---
 
-## 1.6 Integration and Dependencies
+## Integration and Dependencies
 
 ### Roles and Responsibilities
 - **Aggregator / Resource Aggregator:** Collects and integrates metering, disaggregated consumption, and forecasted energy data; identifies flexibility potential; formulates optimized bids.  
@@ -109,7 +109,7 @@
 
 ---
 
-## 1.7 Security and Privacy
+## Security and Privacy
 - **TLS Encryption:** Secures all communication with HTTPS, protecting tokens, personal data, and payloads.  
 - **Keycloak Authentication:** Token-based access control. Tokens expire quickly to minimize risk.  
 - **Access Control:** Restricted to authorized users.  
